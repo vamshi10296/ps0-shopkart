@@ -26,6 +26,9 @@ function Products() {
           <h3>{product.title}</h3>
           <p>Price: {product.price}</p>
           <p>Rating: {product.rating}</p>
+          <Link to={`/products/${product.id}`}>
+            View Details
+          </Link>
         </div>
       ))}
         </div>

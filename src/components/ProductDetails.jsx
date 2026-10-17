@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 function ProductDetails() {
   const { id } = useParams();
-  const [product, setProduct] = useState();
+  const [product, setProduct] = useState(null);
 
   useEffect(() => {
     fetch("https://dummyjson.com/products/" + id)
@@ -35,6 +35,9 @@ function ProductDetails() {
         <div key={index}>
           <p>Rating: {review.rating}</p>
           <p>{review.comment}</p>
+          
+
+
         </div>
       ))}
     </div>
