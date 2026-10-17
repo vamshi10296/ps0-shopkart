@@ -1,17 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# PS0 - ShopKart
 
-Currently, two official plugins are available:
+## About
+ShopKart is a simple online product shopping website built using React and React Router.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Home page with Shop Now button
+- Display products from DummyJSON API
+- Search products by title
+- View product details
+- Display product reviews
+- Not Found page for invalid URLs
 
-## React Compiler
+## Technologies Used
+- React
+- React Router
+- CSS
+- Vite
+- DummyJSON API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## API Used
+- Products: https://dummyjson.com/products?limit=30
+- Product Details: https://dummyjson.com/products/1
 
-## Expanding the Oxlint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# ps0-shopkart
+1. Clone the repository.
+2. Install dependencies:
+
+   npm install
+
+3. Start the development server:
+
+   npm run dev
+
+4. Open the local URL shown in the terminal.
+
+## Build
+
+Run the following command to create a production build:
+
+    npm run build
